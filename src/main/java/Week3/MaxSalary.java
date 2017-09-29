@@ -57,7 +57,7 @@ public class MaxSalary {
                 }
             }
         }
-        System.out.println("Конечная сортировка");
+        System.out.println("Конечная сортировка хахаха");
         outArray(n, array);
         System.out.println();
         out(n, array);
