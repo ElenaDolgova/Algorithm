@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91c7b34-b920-40ea-94ee-1eaca8fd5ad5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Week3/MaxNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Week3/MaxSalary.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci/Fibonacci.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci/by_learners/fibonacci.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci/fibonacci.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci/fibonacci.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci/fibonacci.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_huge/FibonacciHuge.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_huge/by_learners/fibonacci_huge.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_huge/fibonacci_huge.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_huge/fibonacci_huge.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_huge/fibonacci_huge.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_last_digit/FibonacciLastDigit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_last_digit/by_learners/fibonacci_last_digit.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_last_digit/fibonacci_last_digit.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_last_digit/fibonacci_last_digit.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_last_digit/fibonacci_last_digit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_partial_sum/FibonacciPartialSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_partial_sum/by_learners/fib_partial_sum.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_partial_sum/fibonacci_partial_sum.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_partial_sum/fibonacci_partial_sum.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_partial_sum/fibonacci_partial_sum.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_sum_last_digit/FibonacciSumLastDigit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_sum_last_digit/by_learners/fibonacci_sum_last_digit.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_sum_last_digit/fibonacci_sum_last_digit.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_sum_last_digit/fibonacci_sum_last_digit.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/fibonacci_sum_last_digit/fibonacci_sum_last_digit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/gcd/GCD.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/gcd/by_learners/gcd.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/gcd/gcd.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/gcd/gcd.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/gcd/gcd.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/lcm/LCM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/lcm/by_learners/lcm.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/lcm/lcm.cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/lcm/lcm.hs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Tasks/Week2/lcm/lcm.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Week3/MaxSalary1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Week3/MaxSalary.java" afterPath="$PROJECT_DIR$/src/main/java/Week3/MaxSalary.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Week3/Loot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -111,8 +76,30 @@
       <file leaf-file-name="MaxSalary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Week3/MaxSalary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-975">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1150">
+              <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+              <folding>
+                <element signature="method#change#0;class#MaxSalary#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="1152" column="15" lean-forward="false" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSalary1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Week3/MaxSalary1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Week3/Ads.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week3/CollectingSignatures.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week3/MaxNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Week3/MaxSalary1.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week3/MaxSalary.java" />
       </list>
     </option>
@@ -240,6 +228,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -463,7 +452,7 @@
       <updated>1505928319563</updated>
       <workItem from="1505928328692" duration="808000" />
       <workItem from="1505932506560" duration="4751000" />
-      <workItem from="1506411189058" duration="52580000" />
+      <workItem from="1506411189058" duration="57187000" />
     </task>
     <task id="LOCAL-00001" summary="last digit of sum Fibonacci">
       <created>1506447820120</created>
@@ -493,15 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506622492890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Salary">
+      <created>1506673940683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506673940683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58139000" />
+    <option name="totallyTimeSpent" value="62746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -512,11 +507,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23165138" sideWeight="0.78541666" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61556065" sideWeight="0.78541666" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13489583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -568,11 +563,12 @@
     <MESSAGE value="last digit of sum Fibonacci" />
     <MESSAGE value="last digit of part Fibonacci sum" />
     <MESSAGE value="Week 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 3" />
+    <MESSAGE value="Salary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Salary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -801,16 +797,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Week3/Loot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Week3/MaxSalary1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="1152" column="15" lean-forward="false" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Week3/MaxSalary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1150">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="method#change#0;class#MaxSalary#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

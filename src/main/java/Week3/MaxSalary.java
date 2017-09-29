@@ -6,7 +6,6 @@ public class MaxSalary {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-        //out(sortWith(setWith(n,s)));
         setWith(n, s);
     }
 
@@ -41,7 +40,7 @@ public class MaxSalary {
             }
         }
         // Хотим проверить на равенство старших разрядов
-        //out(n, array);
+        outArray(n, array);
         for (int t = 0; t < 3; t++) {
             for (int k = n - 1; k > 0; k--) {
                 for (int j = 0; j < k; j++) {
@@ -49,17 +48,27 @@ public class MaxSalary {
                             (array[t + 1][j] != -1)
                             ) {
                         array = change(n, j, array);
-                    } else if (array[t][j] == array[t][j + 1] && array[t + 1][j + 1] == -1 && array[t + 1][j] != -1 && array[t + 1][j] < array[t][j] ) {
+                    } else if (array[t][j] == array[t][j + 1] && array[t + 1][j + 1] == -1 && array[t + 1][j] != -1 && array[t + 1][j] < array[t][j]) {
                         array = change(n, j, array);
                     } else if (array[t][j] == array[t][j + 1] && array[t + 1][j] == -1 && array[t + 1][j + 1] > array[t][j + 1]) {
                         array = change(n, j, array);
-                        System.out.println("jf");
                     }
                 }
             }
         }
+        outArray(n, array);
+        System.out.println();
         out(n, array);
-        //System.out.println();
+    }
+
+    public static void outArray(int n, int[][] array) {
+        System.out.println();
+        for (int j = 0; j < 4; j++) {
+            for (int i = 0; i < n; i++) {
+                System.out.print(array[j][i] + " ");
+            }
+            System.out.println();
+        }
     }
 
     public static void out(int n, int[][] array) {
@@ -70,13 +79,6 @@ public class MaxSalary {
                 }
             }
         }
-//        System.out.println();
-//        for (int j = 0; j < 4; j++) {
-//            for (int i = 0; i < n; i++) {
-//                System.out.print(array[j][i] + " ");
-//            }
-//            System.out.println();
-//        }
     }
 
     public static void setWith(int n, Scanner s) {
@@ -103,7 +105,7 @@ public class MaxSalary {
                 a = a / 10;
             }
         }
-        //out(n, array);
+        outArray(n, array);
         sortWith(n, array);
     }
 }
