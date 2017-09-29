@@ -26,6 +26,10 @@ public class MaxSalary {
         l = array[3][i + 1];
         array[3][i + 1] = array[3][i];
         array[3][i] = l;
+
+        l = array[4][i + 1];
+        array[4][i + 1] = array[4][i];
+        array[4][i] = l;
         return array;
     }
 
@@ -42,16 +46,36 @@ public class MaxSalary {
         // Хотим проверить на равенство старших разрядов
         //System.out.println("После сортировки по старшим разрядам");
         //outArray(n, array);
+        int q;
         for (int t = 0; t < 3; t++) {
             for (int k = n - 1; k > 0; k--) {
                 for (int j = 0; j < k; j++) {
-                    if (array[t][j] == array[t][j + 1] && array[t + 1][j] < array[t + 1][j + 1] &&
-                            (array[t + 1][j] != -1)
+                    if (t != 0) {
+                        q = t - 1;
+                    } else {
+                        q = t;
+                    }
+                    int q1=array[4][j];
+                    int q2=array[4][j+1];
+                    if (array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                            && array[t + 1][j] < array[t + 1][j + 1]
+                            && (array[t + 1][j] != -1)
                             ) {
                         array = change(n, j, array);
-                    } else if (array[t][j] == array[t][j + 1] && array[t + 1][j + 1] == -1 && array[t + 1][j] != -1 && array[t + 1][j] <= array[t][j]) {
+                    } else if (array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                            && array[t + 1][j + 1] == -1
+                            && array[t + 1][j] != -1
+                            && array[t + 1][j] <= array[t][j]
+                            && array[q1][j]<array[0][j+1]
+                            ) {
                         array = change(n, j, array);
-                    } else if (array[t][j] == array[t][j + 1] && array[t + 1][j] == -1 && array[t + 1][j + 1] > array[t][j + 1]) {
+                    } else if (array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                            && array[t + 1][j] == -1
+                            && array[t + 1][j + 1] > array[t][j + 1]) {
+                        array = change(n, j, array);
+                    }else if(array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                            && array[t + 1][j] == -1
+                            &&array[q2][j + 1] > array[0][j]){
                         array = change(n, j, array);
                     }
                 }
@@ -64,7 +88,7 @@ public class MaxSalary {
     }
 
     public static void outArray(int n, int[][] array) {
-        for (int j = 0; j < 4; j++) {
+        for (int j = 0; j < 5; j++) {
             for (int i = 0; i < n; i++) {
                 System.out.print(array[j][i] + " ");
             }
@@ -80,11 +104,12 @@ public class MaxSalary {
                     System.out.print(array[j][i]);
                 }
             }
+            //System.out.print(" ");
         }
     }
 
     public static void setWith(int n, Scanner s) {
-        int[][] array = new int[4][n];
+        int[][] array = new int[5][n];
         int a, j;
         for (int i = 0; i < n; i++) {
             for (int l = 0; l < 4; l++) {
@@ -95,12 +120,16 @@ public class MaxSalary {
             a = s.nextInt();
             if (a - 1000 >= 0) {
                 j = 3;
+                array[4][i]=j;
             } else if (a - 100 >= 0) {
                 j = 2;
+                array[4][i]=j;
             } else if (a - 10 >= 0) {
                 j = 1;
+                array[4][i]=j;
             } else {
                 j = 0;
+                array[4][i]=j;
             }
             for (; j >= 0; j--) {
                 array[j][i] = a % 10;
