@@ -40,8 +40,8 @@ public class MaxSalary {
             }
         }
         // Хотим проверить на равенство старших разрядов
-        System.out.println("После сортировки по старшим разрядам");
-        outArray(n, array);
+        //System.out.println("После сортировки по старшим разрядам");
+        //outArray(n, array);
         for (int t = 0; t < 3; t++) {
             for (int k = n - 1; k > 0; k--) {
                 for (int j = 0; j < k; j++) {
@@ -49,7 +49,7 @@ public class MaxSalary {
                             (array[t + 1][j] != -1)
                             ) {
                         array = change(n, j, array);
-                    } else if (array[t][j] == array[t][j + 1] && array[t + 1][j + 1] == -1 && array[t + 1][j] != -1 && array[t + 1][j] < array[t][j]) {
+                    } else if (array[t][j] == array[t][j + 1] && array[t + 1][j + 1] == -1 && array[t + 1][j] != -1 && array[t + 1][j] <= array[t][j]) {
                         array = change(n, j, array);
                     } else if (array[t][j] == array[t][j + 1] && array[t + 1][j] == -1 && array[t + 1][j + 1] > array[t][j + 1]) {
                         array = change(n, j, array);
@@ -57,9 +57,9 @@ public class MaxSalary {
                 }
             }
         }
-        System.out.println("Конечная сортировка хахаха");
-        outArray(n, array);
-        System.out.println();
+        //System.out.println("Конечная сортировка хахаха");
+        //outArray(n, array);
+        //System.out.println();
         out(n, array);
     }
 
@@ -107,8 +107,8 @@ public class MaxSalary {
                 a = a / 10;
             }
         }
-        System.out.println("После записывания в массив");
-        outArray(n, array);
+        //System.out.println("После записывания в массив");
+        //outArray(n, array);
         sortWith(n, array);
     }
 }
