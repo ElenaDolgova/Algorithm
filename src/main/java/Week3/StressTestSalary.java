@@ -1,55 +1,13 @@
 package Week3;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 
-public class MaxSalary {
+public class StressTestSalary {
     public static void main(String[] args) {
-//        Scanner s = new Scanner(System.in);
-//        int n = s.nextInt();
-
-//        for (int i = 0; i < n; i++) {
-//            list.add(s.next());
-//        }
-
-//        if("23".compareTo("234")==-1){
-//            System.out.println("23 < 234");
-//        }
-
-
-        while (true) {
-            Random rnd = new Random(System.currentTimeMillis());
-            int n = 2 + rnd.nextInt(4 - 2 + 1);
-            ArrayList<String> list = new ArrayList<String>();
-            System.out.println(n);
-            for (int i = 0; i < n; i++) {
-                list.add((10 + rnd.nextInt(1000 - 10 + 1)) + "");
-                System.out.print(list.get(i)+" ");
-            }
-            String one = out(n, sortWith(n, setWith1(n, list)));
-            MaxSalary1 maxSalary1 = new MaxSalary1(n, list);
-            String two = maxSalary1.run();
-
-            if (one.equals(two)) {
-                System.out.println("ok");
-                System.out.println(one);
-                System.out.println(two);
-                System.out.println();
-            } else {
-            System.out.println("Wrong answer");
-            System.out.println(one);
-            System.out.println(two);
-            System.out.println();
-            break;
-            }
-        }
-
-
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        setWith(n, s);
     }
-
 
     public static int[][] change(int n, int i, int[][] array) {
         int l;
@@ -76,7 +34,7 @@ public class MaxSalary {
     }
 
 
-    public static int[][] sortWith(int n, int[][] array) {
+    public static void sortWith(int n, int[][] array) {
 
         for (int k = n - 1; k > 0; k--) {// Отсортировали по старшему разряду
             for (int j = 0; j < k; j++) {
@@ -111,6 +69,7 @@ public class MaxSalary {
                     }
                     int q1 = array[4][j];
                     int q2 = array[4][j + 1];
+
                     if (array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
                             && array[t + 1][j] < array[t + 1][j + 1]
                             && (array[t + 1][j] != -1)
@@ -138,8 +97,7 @@ public class MaxSalary {
         //System.out.println("Конечная сортировка хахаха");
         //outArray(n, array);
         //System.out.println();
-        //out(n, array);
-        return array;
+        out(n, array);
     }
 
     public static void outArray(int n, int[][] array) {
@@ -152,56 +110,18 @@ public class MaxSalary {
         System.out.println();
     }
 
-    public static String out(int n, int[][] array) {
-        String string = "";
+    public static void out(int n, int[][] array) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 4; j++) {
                 if (array[j][i] != -1) {
-                    //System.out.print(array[j][i]);
-                    string += array[j][i];
+                    System.out.print(array[j][i]);
                 }
             }
             //System.out.print(" ");
         }
-        return string;
     }
 
-    public static int[][] setWith1(int n, ArrayList<String> list) {
-        //for()
-        int[][] array = new int[5][n];
-        int a=0, j=0;
-        for (int i = 0; i < n; i++) {
-            for (int l = 0; l < 4; l++) {
-                array[l][i] = -1;
-            }
-        }
-        for (int i = 0; i < n; i++) {
-            a = Integer.parseInt(list.get(i));
-            if (a - 1000 >= 0) {
-                j = 3;
-                array[4][i] = j;
-            } else if (a - 100 >= 0) {
-                j = 2;
-                array[4][i] = j;
-            } else if (a - 10 >= 0) {
-                j = 1;
-                array[4][i] = j;
-            } else {
-                j = 0;
-                array[4][i] = j;
-            }
-            for (; j >= 0; j--) {
-                array[j][i] = a % 10;
-                a = a / 10;
-            }
-        }
-        //System.out.println("После записывания в массив");
-        //outArray(n, array);
-        return array;
-        //sortWith(n, array);
-    }
-
-    public static int[][] setWith(int n, Scanner s) {
+    public static void setWith(int n, Scanner s) {
         int[][] array = new int[5][n];
         int a, j;
         for (int i = 0; i < n; i++) {
@@ -229,14 +149,17 @@ public class MaxSalary {
                 a = a / 10;
             }
         }
+        //System.out.println("После записывания в массив");
+        //outArray(n, array);
+        //sortWith(n, array);
+
         for (int i=0;i<n-1;i++){
             if(array[4][i]>array[4][i+1]){
                 array = change(n, i, array);
             }
         }
-        //System.out.println("После записывания в массив");
+        //System.out.println("После смены мест по кол-ву разрядов");
         //outArray(n, array);
-        return array;
-        //sortWith(n, array);
+        sortWith(n, array);
     }
 }
