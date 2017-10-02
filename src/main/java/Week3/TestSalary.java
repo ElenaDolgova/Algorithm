@@ -2,7 +2,7 @@ package Week3;
 
 import java.util.*;
 
-public class TestSalary {
+public class TestSalary implements Comparable {
     public static void main(String[] args) {
         new TestSalary().run();
     }
@@ -43,5 +43,10 @@ public class TestSalary {
         }
         System.out.println(out);
         return out;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

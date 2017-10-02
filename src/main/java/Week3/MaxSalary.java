@@ -38,6 +38,8 @@ public class MaxSalary {
                 System.out.println(one);
                 System.out.println(two);
                 System.out.println();
+                one="";
+                two="";
             } else {
             System.out.println("Wrong answer");
             System.out.println(one);
@@ -89,48 +91,69 @@ public class MaxSalary {
         //System.out.println("После сортировки по старшим разрядам");
         //outArray(n, array);
         int q, w, e;
-        for (int t = 0; t < 3; t++) {
-            for (int k = n - 1; k > 0; k--) {
-                for (int j = 0; j < k; j++) {
-                    if (t != 0) {
-                        q = t - 1;
-                    } else {
-                        q = t;
-                    }
+        for(int d=0;d<n;d++) {
+            for (int t = 0; t < 3; t++) {
+                for (int k = n - 1; k > 0; k--) {
+                    for (int j = 0; j < k; j++) {
+                        if (t != 0) {
+                            q = t - 1;
+                        } else {
+                            q = t;
+                        }
 
-                    if (t > 1) {
-                        w = t - 2;
-                    } else {
-                        w = t;
-                    }
+                        if (t > 1) {
+                            w = t - 2;
+                        } else {
+                            w = t;
+                        }
 
-                    if (t > 2) {
-                        e = t - 3;
-                    } else {
-                        e = t;
-                    }
-                    int q1 = array[4][j];
-                    int q2 = array[4][j + 1];
-                    if (array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
-                            && array[t + 1][j] < array[t + 1][j + 1]
-                            && (array[t + 1][j] != -1)
-                            ) {
-                        array = change(n, j, array);
-                    } else if (array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
-                            && array[t + 1][j + 1] == -1
-                            && array[t + 1][j] != -1
-                            && array[t + 1][j] <= array[t][j]
-                            && array[q1][j] < array[0][j + 1]
-                            ) {
-                        array = change(n, j, array);
-                    } else if (array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
-                            && array[t + 1][j] == -1
-                            && array[t + 1][j + 1] > array[t][j + 1]) {
-                        array = change(n, j, array);
-                    } else if (array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
-                            && array[t + 1][j] == -1
-                            && array[q2][j + 1] > array[0][j]) {
-                        array = change(n, j, array);
+                        if (t > 2) {
+                            e = t - 3;
+                        } else {
+                            e = t;
+                        }
+                        int q1 = (int) array[4][j];
+                        int q2 = (int) array[4][j + 1];
+
+                        if (q1 == 1 && q2 == 1
+                                && array[t][j] < array[t][j + 1]
+                                && array[t - 1][j] <= array[t - 1][j + 1]) {
+                            array = change(n, j, array);
+                            //break;
+                        } else if (q1 == 2 && q2 == 2 && t == 1
+                                && array[t - 1][j] <= array[t - 1][j + 1]
+                                && array[t][j] < array[t][j + 1]) {
+                            array = change(n, j, array);
+                        } else if (q1 == 2 && q2 == 2 && t == 2
+                                && array[t - 2][j] <= array[t - 2][j + 1]
+                                && array[t - 1][j] <= array[t - 1][j + 1]
+                                && array[t][j] < array[t][j + 1]) {
+                            array = change(n, j, array);
+                        } else if (q1 != q2 && array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                                && array[t + 1][j] < array[t + 1][j + 1]
+                                && (array[t + 1][j] != -1)
+                                ) {
+                            array = change(n, j, array);
+                        } else if (q1 != q2 && array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                                && array[q1][j] != array[q2][j + 1]
+                                && array[t + 1][j] <= array[t][j]
+                                && array[q1][j] < array[0][j + 1]
+                                && array[q2][j + 1] > array[0][j]
+                                && array[t + 1][j] <= array[t + 1][j + 1]
+                                ) {
+                            array = change(n, j, array);
+                        } else if (q1 != q2 && array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                                && array[t + 1][j] == -1
+                                && array[t + 1][j + 1] >= array[0][j]
+                                && array[t + 1][j + 1] > array[t][j + 1]) {//&& array[t + 1][j + 1] > array[t][j+1]
+                            array = change(n, j, array);
+                        } else if (q1 != q2 && array[e][j] == array[e][j + 1] && array[w][j] == array[w][j + 1] && array[q][j] == array[q][j + 1] && array[t][j] == array[t][j + 1]
+                                && array[t + 1][j] == -1
+                                && array[q2][j + 1] > array[0][j]
+                                && array[t + 1][j + 1] >= array[t][j + 1]
+                                ) {
+                            array = change(n, j, array);
+                        }
                     }
                 }
             }
