@@ -8,9 +8,7 @@ public class Loot {
         int n = s.nextInt();
         int W = s.nextInt();
         double[][] array = sort(n, set(n, s));
-        //out(n,array);
         find(n, W, array);
-
     }
 
     public static void find(int n, int W, double[][] array) {

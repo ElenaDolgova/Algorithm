@@ -7,7 +7,7 @@ public class AdequateMethod {
         new AdequateMethod().method();
     }
 
-    public AdequateMethod method() {
+    public String method() {
         List<String> list = new ArrayList<String>();
 
         Scanner s = new Scanner(System.in);
