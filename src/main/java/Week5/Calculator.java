@@ -15,43 +15,7 @@ public class Calculator {
         int n = s.nextInt();
         map = new HashMap<>();
         map.put(0, 0);
-
-        //array = new int[n + 1];//new int[n + 1];
-
-//        for (int i = 0; i < n + 1; i++) {
-//            array[i] = -1;
-//        }
-//        array[0] = 0;
-//        array[1] = 0;
-//        for (int i = 0; i < n; i++) {
-//            change(i);
-//        }
         change(n);
-
-//            while (n > 1) {
-//                if (n > 3 && (n - 1) % 3 == 0) {
-//                    arrayList.add(n - 1);
-//                    arrayList.add(n / 3);
-//                    n = (n - 1) / 3;
-//                } else if (n % 3 == 0) {
-//                    n /= 3;
-//                    arrayList.add(n);
-//                } else if (n > 2 && (n - 1) % 2 == 0) {
-//                    arrayList.add(n - 1);
-//                    arrayList.add(n / 2);
-//                    n = (n - 1) / 2;
-//                } else if (n % 2 == 0) {
-//                    n /= 2;
-//                    arrayList.add(n);
-//                } else {
-//                    n -= 1;
-//                    arrayList.add(n);
-//                }
-//            }
-//        System.out.println(arrayList.size() - 1);
-//        for (int i = arrayList.size() - 1; i >= 0; i--) {
-//            System.out.print(arrayList.get(i) + " ");
-//        }
     }
 
     void change(int number) {
@@ -98,21 +62,5 @@ public class Calculator {
         for (int k = arrayList.size() - 1; k >= 0; k--) {
             System.out.print(arrayList.get(k)+" ");
         }
-
-
-//        if (array[number] != -1) {
-//            return array[number];
-//        } else {
-//            if (number % 3 == 0) {
-//                arrayList.add(1 + change(number / 3));
-//            }
-//            if (number % 2 == 0) {
-//                arrayList.add(1 + change(number / 2));
-//            }
-//            arrayList.add(1 + change(number - 1));
-//            array[number] = Collections.min(arrayList);
-//            return Collections.min(arrayList);
-//        }
-//    }
     }
 }
