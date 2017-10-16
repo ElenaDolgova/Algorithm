@@ -1,7 +1,7 @@
 package Week3;
 
 import java.util.*;
-
+//Failure stress testing
 public class TestSalary implements Comparable {
     public static void main(String[] args) {
         new TestSalary().run();

@@ -63,7 +63,6 @@ public class Loot {
             array[0][i] = s.nextInt();
             array[1][i] = s.nextInt();
             array[2][i] = array[0][i] / array[1][i];
-            //array[2][i] = new BigDecimal(array[0][i] / array[1][i]).setScale(5, RoundingMode.UP).doubleValue();
             i++;
         }
         return array;

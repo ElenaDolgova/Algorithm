@@ -3,7 +3,7 @@ package Week3;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-
+//NEVER DO IT AGAIN!!!!
 public class MaxSalary {
     public static void main(String[] args) {
         while (true) {

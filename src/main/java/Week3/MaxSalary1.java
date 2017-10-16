@@ -1,7 +1,7 @@
 package Week3;
 
 import java.util.*;
-
+// It is example and bad try
 public class MaxSalary1 {
 //    public static void main(String[] args) {
 //        new MaxSalary1().run();

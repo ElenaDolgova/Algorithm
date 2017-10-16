@@ -1,7 +1,7 @@
 package Week3;
 
 import java.util.Scanner;
-
+//NEVER DO IT AGAIN!!!!
 public class StressTestSalary {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

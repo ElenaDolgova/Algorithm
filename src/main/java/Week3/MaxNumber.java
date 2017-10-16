@@ -8,15 +8,11 @@ public class MaxNumber {
         int n=s.nextInt();
         int k=1;
         int r=0;
-        //int i=1;
         while(n>0){
             if(n-k<=k){
-                //r=n;
-                //System.out.println(n);
                 break;
             }
             n=n-k;
-            //System.out.println(k);
             k=k+1;
         }
         System.out.println(k);
