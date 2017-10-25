@@ -3,12 +3,10 @@ package Lafore.Chap4;
 import java.util.ArrayList;
 
 public class StackX<T> {
-    //private int size;
     private ArrayList<T> stackArray;
     private int top;
 
     public StackX(int j) {
-        //size = j;
         stackArray = new ArrayList<T>(j);
         top = -1;
     }

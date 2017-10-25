@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Reverse {
     public static void main(String[] args) {
-        StakX<Character> word = new StakX<>();
+        StackX<Character> word = new StackX<>();
         Scanner s = new Scanner(System.in);
         String q = s.next();
         int i = 0;
