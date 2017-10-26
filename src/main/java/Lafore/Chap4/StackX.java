@@ -1,5 +1,7 @@
 package Lafore.Chap4;
 
+/* Есть реализованный класс Stack, который наследуется от класс! Vector, который вызывает небольшие трудности
+ использовании. Вместо него сейчас, начиная с 1.6+ есть интерфейс Decue*/
 import java.util.ArrayList;
 
 public class StackX<T> {
@@ -29,7 +31,7 @@ public class StackX<T> {
     }
 
     public T pop() {
-        return stackArray.get(top--);// top перемещается, и значение хоть и сохранется в массиве, но недоступно
+        return stackArray.remove(top--);// top перемещается, и значение хоть и сохранется в массиве, но недоступно
     }
 
     public T peek() {
