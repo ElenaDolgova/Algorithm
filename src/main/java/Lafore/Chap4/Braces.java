@@ -1,4 +1,8 @@
 package Lafore.Chap4;
+/**
+ * Правильная растановка скобок {},(),[]
+ * Если все верно, то выводится Success, в ином случае выводится номер символа в строке, где скобка стоит неверно
+ */
 
 import java.util.Scanner;
 
@@ -15,9 +19,9 @@ public class Braces {
     public String run() {
         Scanner s = new Scanner(in);
         StackX<Character> stackX = new StackX<>();
-        String q = s.next();
+        String q = s.next(); // Считываем целую строку
         int i = 0;
-        while (i < q.length()) {
+        while (i < q.length()) {// Пока не достигнем конца считанной строки
             char ch = q.charAt(i);
 
             switch (ch) {
@@ -36,12 +40,21 @@ public class Braces {
             }
             i++;
         }
-        if (stackX.isEmpty()) {
+        if (stackX.isEmpty()) { // Проверяет случаи вида: {[][}.
             return "Success";
         } else {
             return "" + (stackX.getSize() + j);
         }
     }
+
+    /**
+     *
+     * @param stackX стек, заполненный скобками
+     * @param ch1 элемент считанный из строки
+     * @param ch2 элемен считанный из стека
+     * @return true, если скбки дополняют друг друга, false если скобки разного типа или в разной последовательности.
+     * Например, [], (), {} - true, [}, }{ и т.д - false
+     */
 
     public boolean equalsBraces(StackX stackX, Character ch1, Character ch2) {
         if ((ch1 == ')' && ch2 == '(') || (ch1 == '}' && ch2 == '{') || (ch1 == ']' && ch2 == '[')) {
