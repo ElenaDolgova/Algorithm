@@ -23,19 +23,23 @@ import java.util.Scanner;
  * В ином случае оператор из стека скопировать в выходную строку.
  * Заносим в стек, считанный оператор из строки.
  * 5. Если в строке ничего больше нет, то пока в стеке остаются элементы извлекаем их и вносим в выходную строку.
+ *
  * @author Elena
  * @version 1.0
  */
-public class Infix {
+public class InfixToPostfix {
     public static void main(String[] args) {
-        new Infix().run();
+        new InfixToPostfix().run();
+        System.out.println(out);
+        ParsePostfix parsePostfix = new ParsePostfix();
+        System.out.println(parsePostfix.doParse(out));
     }
 
-    private StringBuilder out;
+    public static StringBuilder out;
     private StackX<Character> stackX;
     private String str;
 
-    public Infix() {
+    public InfixToPostfix() {
         Scanner s = new Scanner(System.in);
         str = s.next();
         out = new StringBuilder(str.length());
@@ -44,25 +48,36 @@ public class Infix {
 
     public void run() {
         char ch, ch0;
-        int i = 0;
-        while (i < str.length()) {
+        for (int i = 0; i < str.length(); i++) {
             ch = str.charAt(i);
             if (isNumber(ch)) {
                 out.append(ch);
-                break;
-            }
-            if (i == str.length() - 1) {
-                while (!stackX.isEmpty()) {
-                    out.append(stackX.pop());
+                if (i == str.length() - 1) {
+                    while (!stackX.isEmpty()) {
+                        if (stackX.peek() != '(') {
+                            out.append(stackX.pop());
+                        } else stackX.pop();
+                    }
+                    continue;
                 }
+                continue;
             }
+            if (ch == ')' && (i == str.length() - 1)) {
+                while (!stackX.isEmpty()) {
+                    if (stackX.peek() != '(') {
+                        out.append(stackX.pop());
+                    } else stackX.pop();
+                }
+                continue;
+            }
+
             switch (ch) {
                 case '(':
                     stackX.push(ch);
                     break;
                 case ')':
                     ch0 = stackX.pop();
-                    while (ch0 != ')') {
+                    while (ch0 != '(') {
                         out.append(ch0);
                         ch0 = stackX.pop();
                     }
@@ -76,7 +91,7 @@ public class Infix {
                             if (ch0 == '(') {
                                 stackX.push(ch0);
                                 break;
-                            } else if (priorityOperator(ch, ch0)) {
+                            } else if (!priorityOperator(ch, ch0)) {
                                 out.append(ch0);
                             } else {
                                 stackX.push(ch0);
