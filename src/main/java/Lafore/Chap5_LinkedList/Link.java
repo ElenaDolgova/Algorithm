@@ -4,18 +4,16 @@ package Lafore.Chap5_LinkedList;
  * It is simple Linkedlist with some data (I don't know exactly what is it).
  * I did it for abstract data.
  */
-public class Link {
-    public int iData;
-    public double dData;
+public class Link<T> {
+    public T iData;
     private Link next; // default null
 
-    public Link(int id, double dd) {
+    public Link(T id) {
         iData = id;
-        dData = dd;
     }
 
     public void displayLink() {
-        System.out.println(iData + ", " + dData);
+        System.out.print(iData + " ");
     }
 
     public void changeNext(Link next) {
