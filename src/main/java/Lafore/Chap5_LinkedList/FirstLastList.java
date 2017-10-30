@@ -1,5 +1,9 @@
 package Lafore.Chap5_LinkedList;
 
+/**
+ * bilateral Linked list
+ * @param <T> type objects of list
+ */
 public class FirstLastList<T> {
     private Link first;
     private Link last;

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91c7b34-b920-40ea-94ee-1eaca8fd5ad5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkStack_Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkQueue_Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithm.iml" afterPath="$PROJECT_DIR$/Algorithm.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/Link.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/Link.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkList.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkStack_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkStack_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkStack_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="-81">
               <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -63,10 +58,39 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LinkQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkQueue_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkQueue_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LinkStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="525">
               <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#318#319#0" expanded="true" />
@@ -79,18 +103,8 @@
       <file leaf-file-name="FirstLastList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -130,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Week2/Fib.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Week2/Some.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week2/SumOfFib.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week2/PartOfSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week3/Coins.java" />
@@ -175,12 +187,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap4/QueueException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkLast.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java" />
         <option value="$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/builders/JUnit4Builder.class" />
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/Link.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkStack.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkStack_Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkQueue_Test.java" />
       </list>
     </option>
   </component>
@@ -276,15 +290,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Lafore" type="462c0819:PsiDirectoryNode" />
-              <item name="Chap5_LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LinkStack_Test.testPush">
+  <component name="RunManager" selected="JUnit.LinkQueue_Test">
     <configuration name="Braces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -386,6 +391,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Algorithm" />
       <envs />
+    </configuration>
+    <configuration name="LinkQueue_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Lafore.Chap5_linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithm" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Lafore.Chap5_linkedList" />
+      <option name="MAIN_CLASS_NAME" value="Lafore.Chap5_linkedList.LinkQueue_Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="LinkStack_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -436,25 +466,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Lafore.Chap4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Lafore.Chap4.Reverse" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -537,19 +548,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Reverse" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Braces" />
-      <item index="2" class="java.lang.String" itemvalue="Application.InfixToPostfix" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkStack_Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkStack_Test.testPush" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Braces" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InfixToPostfix" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkStack_Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LinkStack_Test.testPush" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LinkQueue_Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LinkStack_Test.testPush" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LinkStack_Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.InfixToPostfix" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Braces" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Reverse" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LinkQueue_Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LinkStack_Test.testPush" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkStack_Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InfixToPostfix" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Braces" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +596,7 @@
       <workItem from="1509356647147" duration="64000" />
       <workItem from="1509356786923" duration="915000" />
       <workItem from="1509358313608" duration="9666000" />
-      <workItem from="1509381965794" duration="1608000" />
+      <workItem from="1509381965794" duration="2882000" />
     </task>
     <task id="LOCAL-00001" summary="last digit of sum Fibonacci">
       <created>1506447820120</created>
@@ -790,12 +801,19 @@
       <option name="project" value="LOCAL" />
       <updated>1509368740751</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add JUnit">
+      <created>1509383602975</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1509383602976</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkStack_Test_testPush - 2017.10.30 at 20h 04m 49s.xml">
-      <configuration name="LinkStack_Test.testPush" configurationId="JUnit" />
+    <history-entry file="LinkQueue_Test - 2017.10.30 at 20h 32m 21s.xml">
+      <configuration name="LinkQueue_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="LinkStack_Test_testPush - 2017.10.30 at 20h 06m 22s.xml">
       <configuration name="LinkStack_Test.testPush" configurationId="JUnit" />
@@ -826,7 +844,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256934000" />
+    <option name="totallyTimeSpent" value="258208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -840,7 +858,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115339" sideWeight="0.39513513" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14625446" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33055887" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33174792" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -908,7 +926,8 @@
     <MESSAGE value="Infix and some comments" />
     <MESSAGE value="Change calc" />
     <MESSAGE value="LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
+    <MESSAGE value="Add JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1007,14 +1026,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Week2/Fib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Week5/PrimitiveCalculator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Week5/LSC3.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Week5/AE.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1285,14 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/internal/builders/JUnit4Builder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1336,9 +1339,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/FirstLastList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="525">
           <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#318#319#0" expanded="true" />
@@ -1347,14 +1358,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/LinkQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkStack_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="-81">
           <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
             <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap5_linkedList/LinkQueue_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
