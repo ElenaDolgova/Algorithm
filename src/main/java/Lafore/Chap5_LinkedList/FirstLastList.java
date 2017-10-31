@@ -13,7 +13,7 @@ public class FirstLastList<T> {
     }
 
     public void insertFirst(T id) {
-        Link temp = new Link(id);
+        Link temp = new Link((Comparable) id);
         if (isEmpty()) {
             this.last = temp;
         }
@@ -22,7 +22,7 @@ public class FirstLastList<T> {
     }
 
     public void insertLast(T id) {
-        Link temp = new Link(id);
+        Link temp = new Link((Comparable) id);
         if (isEmpty()) {
             this.first = temp;
         } else {

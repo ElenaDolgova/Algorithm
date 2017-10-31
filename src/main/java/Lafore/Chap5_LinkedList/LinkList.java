@@ -27,7 +27,7 @@ public class LinkList<T> {
     }
 
     public void insertFirst(T id) {
-        Link newLink = new Link(id);
+        Link newLink = new Link((Comparable) id);
         newLink.changeNext(first);
         first = newLink;
     }
