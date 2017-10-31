@@ -6,6 +6,11 @@ public class DoublyLinked<T extends Comparable> {
     private Link first;
     private Link last;
 
+    public DoublyLinked() {
+        first = null;
+        last = null;
+    }
+
     public boolean isEmpty() {
         return (first == null);
     }
@@ -17,7 +22,7 @@ public class DoublyLinked<T extends Comparable> {
         } else {
             first.previous = newLink;
         }
-        newLink.next = first.next;
+        newLink.next = first;
         first = newLink;
     }
 
@@ -33,19 +38,26 @@ public class DoublyLinked<T extends Comparable> {
     }
 
     public void insertAfter(T id, T key) throws LinkedListException {
-        Link newLink = new Link(id);
         if (isEmpty()) {
-            last = newLink;
+            throw new LinkedListException("There is no elements");
         } else {
             Link current = first;
-            while (current.iData.compareTo(key) != 0) {
+            while (current.compareTo(key) != 0) {
                 current = current.next;
+                if (current == null) {
+                    throw new LinkedListException("There is no elements");
+                }
             }
             if (current == null) {
                 throw new LinkedListException("There is no elements");
-            } else {
-                current.next.previous = newLink;
+            }
+            Link newLink = new Link(id);
+            if (current == last) {
+                newLink.next = null;
+                last = newLink;
+            }else{
                 newLink.next = current.next;
+                current.next.previous = newLink;
             }
             newLink.previous = current;
             current.next = newLink;
@@ -76,8 +88,8 @@ public class DoublyLinked<T extends Comparable> {
 
     public Link deleteKey(T key) throws LinkedListException {
         Link current = first;
-        while (current.iData.compareTo(key) != 0) {
-            current = first.next;
+        while (current.compareTo(key) != 0) {
+            current = current.next;
             if (current == null) {
                 throw new LinkedListException("There is no elements");
             }
