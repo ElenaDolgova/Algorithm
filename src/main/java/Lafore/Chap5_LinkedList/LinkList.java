@@ -1,5 +1,7 @@
 package Lafore.Chap5_LinkedList;
 
+import java.util.ListIterator;
+
 /**
  * Class consist of only one element. This element is link on first element of
  * LinkedList. You can find remaining elements if you begin from this element.
@@ -20,6 +22,14 @@ public class LinkList<T> {
             }
         }
         return current;
+    }
+
+    public Link getFirst() {
+        return first;
+    }
+
+    public void setFirst(Link newElem) {
+        first = newElem;
     }
 
     public boolean isEmpty() {
@@ -50,6 +60,7 @@ public class LinkList<T> {
             current.displayLink();
             current = current.getNext();
         }
+        System.out.println();
     }
 
     public Link delete(T key) throws LinkedListException {
@@ -72,5 +83,9 @@ public class LinkList<T> {
             previous.changeNext(current.getNext()); // delete current element
         }
         return current;
+    }
+
+    public Iterator getIterator() {
+        return new Iterator(this);
     }
 }
