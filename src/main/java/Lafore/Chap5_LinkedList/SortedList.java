@@ -7,6 +7,10 @@ public class SortedList<T extends Comparable> {
         return (first == null);
     }
 
+    /**
+     * O(n)
+     * @param key
+     */
     public void insert(T key) {
         Link newLink = new Link(key);
         Link previous = null;
