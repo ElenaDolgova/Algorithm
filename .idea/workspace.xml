@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91c7b34-b920-40ea-94ee-1eaca8fd5ad5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Triangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Factorial.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Factorial_Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Triangle_Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Triangle_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="100">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,12 +34,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Triangle.java">
+      <file leaf-file-name="Factorial.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factorial_Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Factorial_Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +70,7 @@
       <find>plus</find>
       <find>0 1 3 7 4 6 6 9 3 1</find>
       <find>0 1 3 7 4 6 6</find>
+      <find>triangle</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -76,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Week5/AE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Week5/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week5/LSC3.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week5/LSeq.java" />
         <option value="$PROJECT_DIR$/src/main/java/Week4/MajorityElement.java" />
@@ -127,6 +140,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap5_LinkedList/SortedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Triangle.java" />
         <option value="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Factorial_Test.java" />
       </list>
     </option>
   </component>
@@ -248,6 +263,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Lafore" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Lafore" type="462c0819:PsiDirectoryNode" />
+              <item name="Chap6_Recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -294,20 +318,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Triangle_Test">
-    <configuration name="DoublyLinkedList_Test.setDoublyLinked_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Factorial_Test.triangleRec_Test">
+    <configuration name="Factorial_Test.triangleRec_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Lafore.Chap5_linkedList.DoublyLinkedList.*" />
+          <option name="PATTERN" value="Lafore.Chap6_Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Algorithm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Lafore.Chap5_linkedList.DoublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="Lafore.Chap5_linkedList.DoublyLinkedList.DoublyLinkedList_Test" />
-      <option name="METHOD_NAME" value="setDoublyLinked_test" />
+      <option name="PACKAGE_NAME" value="Lafore.Chap6_Recursion" />
+      <option name="MAIN_CLASS_NAME" value="Lafore.Chap6_Recursion.Factorial_Test" />
+      <option name="METHOD_NAME" value="triangleRec_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -501,19 +525,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DoublyLinkedList_Test.setDoublyLinked_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Iterator_Test.iterator_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Iterator_Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Triangle_Test.triangleRec_Test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Triangle_Test" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Iterator_Test.iterator_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Iterator_Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Triangle_Test.triangleRec_Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Triangle_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Factorial_Test.triangleRec_Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Triangle_Test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Triangle_Test.triangleRec_Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Iterator_Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Iterator_Test.iterator_test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DoublyLinkedList_Test.setDoublyLinked_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Factorial_Test.triangleRec_Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Triangle_Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Triangle_Test.triangleRec_Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Iterator_Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Iterator_Test.iterator_test" />
       </list>
     </recent_temporary>
   </component>
@@ -549,7 +573,7 @@
       <workItem from="1509356647147" duration="64000" />
       <workItem from="1509356786923" duration="915000" />
       <workItem from="1509358313608" duration="9666000" />
-      <workItem from="1509381965794" duration="26536000" />
+      <workItem from="1509381965794" duration="30781000" />
     </task>
     <task id="LOCAL-00001" summary="last digit of sum Fibonacci">
       <created>1506447820120</created>
@@ -803,30 +827,37 @@
       <option name="project" value="LOCAL" />
       <updated>1509564247596</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Add recursive triangle">
+      <created>1509570698769</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1509570698769</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Iterator_Test - 2017.11.01 at 22h 08m 27s.xml">
-      <configuration name="Iterator_Test" configurationId="JUnit" />
+    <history-entry file="Factorial_Test_triangleRec_Test - 2017.11.02 at 02h 27m 17s.xml">
+      <configuration name="Factorial_Test.triangleRec_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Iterator_Test - 2017.11.01 at 22h 08m 40s.xml">
-      <configuration name="Iterator_Test" configurationId="JUnit" />
+    <history-entry file="Factorial_Test_triangleRec_Test - 2017.11.02 at 02h 31m 23s.xml">
+      <configuration name="Factorial_Test.triangleRec_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Iterator_Test - 2017.11.01 at 22h 08m 59s.xml">
-      <configuration name="Iterator_Test" configurationId="JUnit" />
+    <history-entry file="Factorial_Test_triangleRec_Test - 2017.11.02 at 02h 32m 11s.xml">
+      <configuration name="Factorial_Test.triangleRec_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Iterator_Test - 2017.11.01 at 22h 09m 17s.xml">
-      <configuration name="Iterator_Test" configurationId="JUnit" />
+    <history-entry file="Factorial_Test_triangleRec_Test - 2017.11.02 at 02h 32m 23s.xml">
+      <configuration name="Factorial_Test.triangleRec_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Iterator_Test - 2017.11.01 at 22h 09m 30s.xml">
-      <configuration name="Iterator_Test" configurationId="JUnit" />
+    <history-entry file="Factorial_Test_triangleRec_Test - 2017.11.02 at 02h 32m 34s.xml">
+      <configuration name="Factorial_Test.triangleRec_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Factorial_Test_triangleRec_Test - 2017.11.02 at 02h 32m 50s.xml">
+      <configuration name="Factorial_Test.triangleRec_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Triangle_Test - 2017.11.02 at 00h 10m 30s.xml">
       <configuration name="Triangle_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Triangle_Test_triangleRec_Test - 2017.11.02 at 00h 07m 08s.xml">
-      <configuration name="Triangle_Test.triangleRec_Test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Triangle_Test_triangleRec_Test - 2017.11.02 at 00h 07m 44s.xml">
       <configuration name="Triangle_Test.triangleRec_Test" configurationId="JUnit" />
@@ -839,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281862000" />
+    <option name="totallyTimeSpent" value="286107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -853,12 +884,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115339" sideWeight="0.39513513" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2508918" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2508918" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33174792" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29243243" sideWeight="0.6557971" order="0" side_tool="false" content_ui="tabs" x="773" y="89" width="373" height="842" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -869,7 +901,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -927,7 +958,8 @@
     <MESSAGE value="Add DoublyList" />
     <MESSAGE value="Add tests for DoublyList" />
     <MESSAGE value="Add Iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Iterator" />
+    <MESSAGE value="Add recursive triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add recursive triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1050,21 +1082,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Week3/StressTestSalary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Week3/TestSalary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="19" column="66" lean-forward="true" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Week3/MaxSalary1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-237">
@@ -1381,10 +1398,10 @@
         <state relative-caret-position="2100">
           <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#737#738#0" expanded="false" />
+            <element signature="e#767#768#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1402,12 +1419,12 @@
         <state relative-caret-position="1500">
           <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#2556#2557#0" expanded="true" />
-            <element signature="e#2597#2598#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#853#854#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#2556#2557#0" expanded="false" />
+            <element signature="e#2597#2598#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1441,6 +1458,16 @@
         <state relative-caret-position="336">
           <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1448,16 +1475,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Triangle_Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Factorial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Factorial_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
