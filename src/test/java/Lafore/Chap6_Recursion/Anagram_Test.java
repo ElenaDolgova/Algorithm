@@ -1,4 +1,4 @@
-package Lafore;
+package Lafore.Chap6_Recursion;
 
 import Lafore.Chap6_Recursion.Anagram;
 import org.junit.Test;

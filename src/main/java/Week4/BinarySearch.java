@@ -24,21 +24,21 @@ public class BinarySearch {
 
         System.out.println();
         for (int i = 0; i < k; i++) {
-            System.out.print(binarySearch((int) listk.get(i), listn) + " ");
+            System.out.print(binarySearch(listk.get(i), listn) + " ");
         }
     }
 
     public int binarySearch(int num, ArrayList<Integer> arrayList) {
-        int r = 0;
+        int r;
         int min = 0;
         int max = arrayList.size();
         while (min < max) {
             r = (min + max) / 2;
-            if (arrayList.get((int) r) == num) {
-                return (int) r;
-            } else if (arrayList.get((int) r) > num) {
+            if (arrayList.get(r) == num) {
+                return r;
+            } else if (arrayList.get(r) > num) {
                 max = r;
-            } else if(arrayList.get((int) r) < num) {
+            } else if(arrayList.get(r) < num) {
                 min = r + 1;
             }
         }
