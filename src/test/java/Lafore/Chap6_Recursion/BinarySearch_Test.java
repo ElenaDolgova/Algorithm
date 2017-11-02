@@ -9,8 +9,8 @@ public class BinarySearch_Test {
 
     @Test
     public void binarySearch_Test() {
-        assertEquals(0,binarySearch.binarySearch(0, 0, binarySearch.getSize()));
-        assertEquals(4,binarySearch.binarySearch(5, 0, binarySearch.getSize()));
-        assertEquals(7,binarySearch.binarySearch(33, 0, binarySearch.getSize()));
+        assertEquals(0,binarySearch.find(0));
+        assertEquals(4,binarySearch.find(5));
+        assertEquals(7,binarySearch.find(33));
     }
 }

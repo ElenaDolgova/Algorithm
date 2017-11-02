@@ -30,14 +30,18 @@ public class BinarySearch {
         return arrayList.size();
     }
 
+    public int find(int key){
+        return binarySearch(key,0,arrayList.size());
+    }
+
     /**
+     * O(log N)
      * @param key        search key
      * @param lowerBound
      * @param upperBound
      * @return -1 if there is no key, otherwise return number of position
      */
-
-    public int binarySearch(int key, int lowerBound, int upperBound) {
+    private int binarySearch(int key, int lowerBound, int upperBound) {
         int r;
         r = (lowerBound + upperBound) / 2;
         if (arrayList.get(r) == key) {
