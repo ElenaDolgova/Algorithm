@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 import static java.util.Collections.swap;
 
+/**
+ * Quick sort
+ */
 public class Sorting {
     ArrayList<Long> arrayList = new ArrayList();
 
