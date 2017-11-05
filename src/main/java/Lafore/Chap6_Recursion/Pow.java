@@ -4,6 +4,13 @@ public class Pow {
 
     int count = 0;
 
+    /**
+     * O(log n)
+     * @param x
+     * @param y
+     * @return
+     */
+
     public int power(int x, int y) {
         if (y == 0) {
             count++;
@@ -18,6 +25,7 @@ public class Pow {
     }
 
     /**
+     * O(n)
      * @param x
      * @param y
      * @return
