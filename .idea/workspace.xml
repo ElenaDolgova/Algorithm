@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91c7b34-b920-40ea-94ee-1eaca8fd5ad5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap7_UnusualSort/ShellSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap7_UnusualSort_Test/ShellSort_Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Pow.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Pow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap7_UnusualSort/ShellSort.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap7_UnusualSort/ShellSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lafore/Chap7_UnusualSort_Test/ShellSort_Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap7_UnusualSort_Test/ShellSort_Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +23,11 @@
       <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap7_UnusualSort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="175">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +36,8 @@
       <file leaf-file-name="ShellSort_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap7_UnusualSort_Test/ShellSort_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="175">
+              <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#186#195#0" expanded="true" />
@@ -554,7 +553,7 @@
       <workItem from="1509381965794" duration="30883000" />
       <workItem from="1509611962102" duration="17794000" />
       <workItem from="1509699110347" duration="8640000" />
-      <workItem from="1509836781930" duration="4419000" />
+      <workItem from="1509836781930" duration="7741000" />
     </task>
     <task id="LOCAL-00001" summary="last digit of sum Fibonacci">
       <created>1506447820120</created>
@@ -864,28 +863,17 @@
       <option name="project" value="LOCAL" />
       <updated>1509713646121</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Add Shell's sort">
+      <created>1509847371998</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1509847371998</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Pow_Test - 2017.11.03 at 15h 19m 47s.xml">
-      <configuration name="Pow_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Pow_Test - 2017.11.03 at 15h 51m 21s.xml">
-      <configuration name="Pow_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Pow_Test - 2017.11.03 at 15h 51m 34s.xml">
-      <configuration name="Pow_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Pow_Test - 2017.11.03 at 15h 51m 40s.xml">
-      <configuration name="Pow_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Pow_Test - 2017.11.03 at 15h 52m 31s.xml">
-      <configuration name="Pow_Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Pow_Test - 2017.11.03 at 15h 53m 08s.xml">
-      <configuration name="Pow_Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Pow_Test_pow_test - 2017.11.03 at 15h 20m 57s.xml">
       <configuration name="Pow_Test.pow_test" configurationId="JUnit" />
     </history-entry>
@@ -898,9 +886,27 @@
     <history-entry file="ShellSort_Test - 2017.11.05 at 05h 02m 20s.xml">
       <configuration name="ShellSort_Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShellSort_Test - 2017.11.05 at 06h 51m 06s.xml">
+      <configuration name="ShellSort_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShellSort_Test - 2017.11.05 at 06h 52m 12s.xml">
+      <configuration name="ShellSort_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShellSort_Test - 2017.11.05 at 06h 54m 56s.xml">
+      <configuration name="ShellSort_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShellSort_Test - 2017.11.05 at 06h 55m 54s.xml">
+      <configuration name="ShellSort_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShellSort_Test - 2017.11.05 at 06h 56m 50s.xml">
+      <configuration name="ShellSort_Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShellSort_Test - 2017.11.05 at 06h 57m 08s.xml">
+      <configuration name="ShellSort_Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317062000" />
+    <option name="totallyTimeSpent" value="320384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -915,7 +921,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115339" sideWeight="0.39513513" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33174792" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44589773" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296076" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -968,7 +974,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Salary" />
     <MESSAGE value="Adequate method for salary" />
     <MESSAGE value="Add calculator" />
     <MESSAGE value="Add Gold" />
@@ -993,7 +998,8 @@
     <MESSAGE value="Add the problem of towers of Hanoi" />
     <MESSAGE value="Add Merge sort" />
     <MESSAGE value="Add methods: pow() O(n), power() O(log n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add methods: pow() O(n), power() O(log n)" />
+    <MESSAGE value="Add Shell's sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Shell's sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1494,8 +1500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Lafore/Chap7_UnusualSort_Test/ShellSort_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#186#195#0" expanded="true" />
@@ -1505,11 +1511,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap7_UnusualSort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="175">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
           </folding>
         </state>
       </provider>

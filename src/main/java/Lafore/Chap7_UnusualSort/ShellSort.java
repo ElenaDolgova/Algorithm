@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class ShellSort<T extends Comparable> {
     private ArrayList<T> arrayList;
 
+    /**
+     * Between O(n^(3/2)) and O(n^(7/6))
+     * @param args
+     */
     public ShellSort(T... args) {
         arrayList = new ArrayList<>(args.length);
         for (int i = 0; i < args.length; i++) {
@@ -15,7 +19,15 @@ public class ShellSort<T extends Comparable> {
     public void shellSort() {
         int h = 0;
         T temp;
-
+/**
+ * h - interval sequence
+ * We can choose other interval. For example:
+ * if(h < 5) {
+ *  h = 1;
+ * }else{
+ *  h =(5*h-1)/11;
+ * }
+ */
         while (h <= arrayList.size() / 3) {
             h = 3 * h + 1;
         }

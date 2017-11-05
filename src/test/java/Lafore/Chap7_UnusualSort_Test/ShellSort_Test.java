@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ShellSort_Test {
 
-    ShellSort<Integer> shellSort = new ShellSort<Integer>(1, 2, 4, 7, 13, 0, -5);
+    ShellSort<Integer> shellSort = new ShellSort<Integer>(6, 8, 1, 0, 9, 7);
 
     @Test
     public void shellSort_test() {
