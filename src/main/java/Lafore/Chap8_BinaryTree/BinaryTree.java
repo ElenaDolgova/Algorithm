@@ -127,4 +127,48 @@ public class BinaryTree {
         }
         return successor;
     }
+
+    public Node findMin() {
+        Node current = root;
+        Node min = root;
+        while (current != null) {
+            min = current;
+            current = current.leftChild;
+        }
+        return min;
+    }
+
+    public Node findMax() {
+        Node current = root;
+        Node max = root;
+        while (current != null) {
+            max = current;
+            current = current.rightChild;
+        }
+        return max;
+    }
+
+    private void preOrder(Node node) {
+        if (node != null) {
+            System.out.println(node.id + " ");
+            preOrder(node.leftChild);
+            preOrder(node.rightChild);
+        }
+    }
+
+    private void inOrder(Node node) {
+        if (node != null) {
+            inOrder(node.leftChild);
+            System.out.println(node.id + " ");
+            inOrder(node.rightChild);
+        }
+    }
+
+    private void postOrder(Node node) {
+        if (node != null) {
+            postOrder(node.leftChild);
+            postOrder(node.rightChild);
+            System.out.println(node.id + " ");
+        }
+    }
 }

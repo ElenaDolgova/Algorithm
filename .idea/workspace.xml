@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91c7b34-b920-40ea-94ee-1eaca8fd5ad5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap8_BinaryTree/BinaryTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap8_BinaryTree/Node.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap8_BinaryTree/BinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap8_BinaryTree/BinaryTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap8_BinaryTree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+            <state relative-caret-position="372">
+              <caret line="164" column="5" lean-forward="true" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -567,7 +566,7 @@
       <workItem from="1509836781930" duration="7766000" />
       <workItem from="1510222908810" duration="6256000" />
       <workItem from="1510414214882" duration="1805000" />
-      <workItem from="1510568113647" duration="9153000" />
+      <workItem from="1510568113647" duration="10884000" />
     </task>
     <task id="LOCAL-00001" summary="last digit of sum Fibonacci">
       <created>1506447820120</created>
@@ -898,7 +897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510239712881</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Binary tree">
+      <created>1510581456611</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1510581456611</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -934,7 +940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337623000" />
+    <option name="totallyTimeSpent" value="339354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1002,7 +1008,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Gold" />
     <MESSAGE value="Add Distance" />
     <MESSAGE value="Change int on long" />
     <MESSAGE value="Don't remember" />
@@ -1027,7 +1032,8 @@
     <MESSAGE value="Add Shell's sort" />
     <MESSAGE value="Add comments in Shell's sort" />
     <MESSAGE value="Qs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Qs" />
+    <MESSAGE value="Binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1494,8 +1500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lafore/Chap8_BinaryTree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+        <state relative-caret-position="372">
+          <caret line="164" column="5" lean-forward="true" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
           <folding />
         </state>
       </provider>
