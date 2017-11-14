@@ -73,7 +73,7 @@ public class BinaryTree {
                 parent.rightChild = null;
             }
             return true;
-            // There is one of thr successor
+            // There is one of the successors
         } else if (current.leftChild == null) {// There is only right successor
             if (current == root) {
                 root = current.rightChild;
