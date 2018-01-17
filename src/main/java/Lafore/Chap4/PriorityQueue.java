@@ -11,7 +11,7 @@ public class PriorityQueue {
     public PriorityQueue(int s) {
         maxSize = s;
         pQArray = new ArrayList<>(maxSize);
-        anInt = 0;
+        anInt = 0; // Current number
     }
 
     public void insert(long item) {

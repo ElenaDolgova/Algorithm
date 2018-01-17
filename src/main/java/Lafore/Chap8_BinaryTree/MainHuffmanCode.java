@@ -2,6 +2,9 @@ package Lafore.Chap8_BinaryTree;
 
 import java.util.*;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class MainHuffmanCode {
 
     public static void main(String[] args) {
@@ -9,6 +12,7 @@ public class MainHuffmanCode {
         StringBuilder str = new StringBuilder(s.nextLine());
         Map<Character, Integer> map = new HashMap<>();
         ArrayList<Character> arrayList = new ArrayList<>();
+
         for (int i = 0; i < str.length(); i++) {
             if (map.containsKey(str.charAt(i))) {
                 map.replace(str.charAt(i), map.get(str.charAt(i)), map.get(str.charAt(i)) + 1);
@@ -16,6 +20,17 @@ public class MainHuffmanCode {
                 arrayList.add(str.charAt(i));
                 map.put(str.charAt(i), 1);
             }
+        }
+
+        if(map.size()==1){
+            System.out.println( "1 "+map.get(str.charAt(0)));
+            System.out.println(str.charAt(0)+": 0");
+            int i =0;
+            while(i<map.get(str.charAt(0))){
+                System.out.print("0");
+                i++;
+            }
+            return;
         }
 
         Queue<BTHuffmanCode> pq = new PriorityQueue<>(map.size(), idComparator);
@@ -51,8 +66,12 @@ public class MainHuffmanCode {
         for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i) + ": " + bt.getMap().get(arrayList.get(i)));
         }
-        System.out.println(string);
+        System.out.print(string);
     }
 
     public static Comparator<BTHuffmanCode> idComparator = Comparator.comparingInt(BTHuffmanCode::getFrecuency);
 }
+
+
+
+

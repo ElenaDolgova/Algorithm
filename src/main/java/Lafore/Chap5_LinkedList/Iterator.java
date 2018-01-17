@@ -17,7 +17,6 @@ public class Iterator<T extends Comparable> {
         current = list.getFirst();
         previous = null;
     }
-
     /**
      * @return true if at the end of list
      */
