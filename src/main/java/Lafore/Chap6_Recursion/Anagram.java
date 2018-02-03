@@ -43,9 +43,10 @@ public class Anagram {
     }
 
     private void displayWord() {
-        for (int i = 0; i < size; i++) {
-            System.out.print(str.charAt(i));
-        }
-        System.out.println();
+//        for (int i = 0; i < size; i++) {
+//            System.out.print(str.charAt(i));
+//        }
+        System.out.println(str);
+        //System.out.println();
     }
 }
