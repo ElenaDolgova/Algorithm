@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b91c7b34-b920-40ea-94ee-1eaca8fd5ad5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap12_Heap/Heap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap12_Heap/HeapForStepic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap12_Heap/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Stepic/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TimusOnline/APlusB_1000.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TimusOnline/Sqrt_1001.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap12_Heap/Heap_test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Week1/APlusB.class" afterPath="$PROJECT_DIR$/target/classes/Week1/APlusB.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Anagram.java" afterPath="$PROJECT_DIR$/src/main/java/Lafore/Chap6_Recursion/Anagram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/ElementOfQueue.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/ElementOfQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/InIterator.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/InIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/InTreePQ.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/InTreePQ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/Iterator.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/Iterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/NodePQ.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/NodePQ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/TreePQ.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/TreePQ.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Stepic/TreePQException.java" afterPath="$PROJECT_DIR$/src/main/java/Stepic/TreePQException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Week1/APlusB.java" afterPath="$PROJECT_DIR$/src/main/java/Week1/APlusB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Anagram_Test.java" afterPath="$PROJECT_DIR$/src/test/java/Lafore/Chap6_Recursion/Anagram_Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -709,14 +691,7 @@
       <workItem from="1516730829910" duration="124000" />
       <workItem from="1516805211504" duration="3303000" />
       <workItem from="1517410045376" duration="1299000" />
-      <workItem from="1517671865777" duration="3824000" />
-    </task>
-    <task id="LOCAL-00003" summary="Week 3">
-      <created>1506591939520</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1506591939520</updated>
+      <workItem from="1517671865777" duration="4470000" />
     </task>
     <task id="LOCAL-00004" summary="Week 3">
       <created>1506622492890</created>
@@ -1054,7 +1029,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516208322432</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Add Heap for Stepic course">
+      <created>1517681010782</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1517681010782</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1090,11 +1072,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424522000" />
+    <option name="totallyTimeSpent" value="425168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1104,8 +1085,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3115339" sideWeight="0.39513513" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33174792" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15576695" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33174792" sideWeight="0.49791667" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15576695" sideWeight="0.60486484" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1670,6 +1651,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
